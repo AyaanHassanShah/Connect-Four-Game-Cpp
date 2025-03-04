@@ -1,101 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect Four Game (C++)</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1e272e;
-            color: #ffffff;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background: #485460;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
-        }
-        h1 {
-            color: #fbc531;
-        }
-        h2 {
-            color: #00a8ff;
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: #2f3640;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 5px;
-        }
-        pre {
-            background: #2f3640;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-            text-align: left;
-            color: #fbc531;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: #353b48;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Connect Four Game (C++)</h1>
-        <h2>Overview</h2>
-        <p>A C++ implementation of the classic Connect Four game, developed for the Programming Fundamentals course.</p>
-        
-        <h2>Features</h2>
-        <ul>
-            <li>Two-Player Mode with Toss System</li>
-            <li>6x7 Grid with Dynamic Updates</li>
-            <li>Winning Condition Detection (Horizontal, Vertical, Diagonal)</li>
-            <li>Game Draw Handling</li>
-            <li>Menu System with Play, Credits, Instructions, Records, and Exit</li>
-        </ul>
-        
-        <h2>Installation & Execution</h2>
-        <pre>git clone https://github.com/AyaanHassanShah/Connect-Four-Game-Cpp.git</pre>
-        <p>Open the project in Microsoft Visual Studio and run <code>CONNECT 4-PF LAB PROJECT.cpp</code>.</p>
-        
-        <h2>How to Play</h2>
-        <p>Players take turns selecting a column (1-7) to drop their token. The first player to connect four in a row wins.</p>
-        
-        <h2>Example Gameplay</h2>
-        <pre>
- 1 2 3 4 5 6 7
- ---------------
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
- ---------------
-Player 1 (Red) - Choose a column: 4
-        </pre>
-        
-        <h2>License</h2>
-        <p>MIT License</p>
-    </div>
-    
-    <footer>
-        <p>Syed Ayaan Hassan Shah | National University of Computer and Emerging Sciences</p>
-    </footer>
-</body>
-</html>
+<h1>Connect-Four-Game-Cpp</h1>
+<hr><p>A C++ implementation of the classic Connect Four game using fundamental programming concepts such as loops, functions, arrays, and file handling. This project includes a menu-driven interface, two-player functionality, and a record-keeping system for winners and draws.</p><h2>Technologies Used</h2>
+<hr><ul>
+<li>C++</li>
+</ul><h2>Features</h2>
+<hr><ul>
+<li>Two-Player Mode with Toss System</li>
+</ul><ul>
+<li>6x7 Grid with Dynamic Updates</li>
+</ul><ul>
+<li>Winning Condition Detection (Horizontal, Vertical, Diagonal)</li>
+</ul><ul>
+<li>Game Draw Handling</li>
+</ul><ul>
+<li>Menu System with Play, Credits, Instructions, Records, and Exit</li>
+</ul><h5>Steps</h5><ul>
+<li>git clone https://github.com/AyaanHassanShah/Connect-Four-Game-Cpp.git</li>
+</ul><h2>Project Status</h2>
+<hr><p>Completed</p><h2>Acknowledgement</h2>
+<hr><ul>
+<li>I would like to extend my deepest gratitude to my supervisor, Professor [Muhammad Yousaf], for their unwavering support and insightful critiques throughout my research journey. Their commitment to academic excellence and meticulous attention to detail have significantly shaped this project."</li>
+</ul><ul>
+<li>Development was conducted using Microsoft Visual Studio and standard C++ libraries.</li>
+</ul><ul>
+<li>The facilities and resources of the National University of Computer and Emerging Sciences were utilized during the development of this project."</li>
+</ul><h2>Contact</h2>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/syed-ayaan-hassan-shah-4993a532a/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/AyaanHassanShah"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
